@@ -1,64 +1,28 @@
-div{
-  display:block;
-  float:left;
-  height:300px;
-  width:300px;
-  border:1px solid black;
-  margin:10px;
-  -webkit-transition:all .8s linear;
-  -moz-transition:all .8s linear;
-  -o-transition:all .8s linear;
-  -ms-transition:all .8s linear;
-  transition:all .8s linear;
-  margin-top:20px;
- }
-
- div[data-filter="red"]{
-   background-image:url("img1.jpg");
- 
- }
- 
- div[data-filter="green"]{
-  background-image:url("img2.jpg");
- }
- 
- div[data-filter="blue"]{
-  background-image:url("img3.jpg");
- }
- 
- div[data-filter="purple"]{
-  background-image:url("img4.jpg");
+.Dimer {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 1 px 1px 1px 1px;
+  background-color: lightgray;
+  width: 50%;
+  text-align: center;
 }
- 
- a:focus[data-filter]{
-     opacity:.8;
-      outline:none;
- }
- 
- a[data-filter="red"]:focus ~ div:not([data-filter="red"]){
-  height:0px;
-  width:0px;
-  border:none;
-  margin:0;
- }
- 
- a[data-filter="green"]:focus ~ div:not([data-filter="green"]){
-  height:0px;
-  width:0px;
-  border:none;
-  margin:0;
- }
-
- a[data-filter="blue"]:focus ~ div:not([data-filter="blue"]){
-  height:0px;
-  width:0px;
-  border:none;
-  margin:0;
+.Jelle {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 1 px 1px 1px 1px;
+  background-color: white;
+  width: 50%;
+  text-align: center;
 }
-
- a[data-filter="purple"]:focus ~ div:not([data-filter="purple"]){
-  height:0px;
-  width:0px;
-  border:none;
-  margin:0;
-  }
+.Tzanto {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 1 px 1px 1px 1px;
+  background-color: white;
+  width: 50%;
+  text-align: center;
+}
+.Erwin {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 1 px 1px 1px 1px;
+  background-color: white;
+  width: 50%;
+  text-align: center;
+}

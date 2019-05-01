@@ -1,33 +1,67 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
 
-  <title>smoelenboek</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+        <style>
+        #checkboxDimer:checked ~ * .Dimer{
+          display:none;
+        }
+        #checkboxJelle:checked ~ * .Jelle {
+          display:none;
+        }
+        #checkboxTzanto:checked ~ * .Tzanto {
+          display:none;
+        }
+        #checkboxErwin:checked ~ * .Erwin {
+          display:none;
+        }
+        </style>
+      </head>
+        <body>
+                
+        <input type="checkbox" id="checkboxDimer" /> Dimer
+        <input type="checkbox" id="checkboxJelle" /> Jelle
+        <input type="checkbox" id="checkboxTzanto" /> Tzanto
+        <input type="checkbox" id="checkboxErwin" /> Erwin
+        
 
-  <link rel="stylesheet" href="styles.css">
+       <div>
+        <div class="Dimer">
+            <h1>Dimer</h1>
+            <img src="img1.jpg">
+            <br>
+            <p>dit is Dimer</p>
+            <br>
+        </div>
+      </div>
 
-</head>
+      <div>
+          <div class="Jelle">
+              <h1>Jelle</h1>
+              <img src="img2.jpg">
+              <p>dit is Jelle</p>
+          </div>
+        </div>
 
-<body>
-  
-    <a href="#" data-filter="all" tabindex="-1">ALL</a> 
-    <a href="#" data-filter="red" tabindex="-1">RED</a>
-    <a href="#" data-filter="green" tabindex="-1">GREEN</a>
-    <a href="#" data-filter="blue" tabindex="-1">BLUE</a>
-    <a href="#" data-filter="purple" tabindex="-1">PURPLE</a>
-       
-  <div data-filter="red"></div>
-  <div data-filter="green"></div>
-  <div data-filter="blue"></div>
-  <div data-filter="purple"></div>
+        <div>
+            <div class="Tzanto">
+                <h1>Tzanto</h1>
+                <img src="img3.jpg">
+                <p>dit is Tzanto</p>
+            </div>
+          </div>
 
-  
-  
-  </body>
+
+          <div>
+              <div class="Erwin">
+                  <h1>Erwin</h1>
+                  <img src="img4.jpg">
+                  <p>dit is Erwin</p>
+              </div>
+            </div>
+</body>
 </html>
 
 
